@@ -1,48 +1,10 @@
-# DeoVR 规则集 - 仿照 telegram.mrs 格式
-# 用于 Clash.Meta / Mihomo 等代理工具
-# 创建时间: 2026-03-01
-
-payload:
-  # 主域名
-  - DOMAIN-SUFFIX,deovr.com
-  
-  # 可能的 API 和服务子域名（需要根据实际情况验证）
-  - DOMAIN-KEYWORD,deovr
-  - DOMAIN-SUFFIX,deovr.app
-  - DOMAIN-SUFFIX,deovr.net
-  - DOMAIN-SUFFIX,deovr.io
-  
-  # 内容分发网络 (CDN) 相关
-  - DOMAIN-KEYWORD,deovr-cdn
-  - DOMAIN-KEYWORD,deovr-content
-  
-  # 静态资源域名
-  - DOMAIN-SUFFIX,deovrstatic.com
-  - DOMAIN-SUFFIX,deovrassets.com
-  
-  # 用户认证和账户服务
-  - DOMAIN-SUFFIX,deovrauth.com
-  - DOMAIN-SUFFIX,deovraccount.com
-  
-  # 视频流和媒体服务
-  - DOMAIN-KEYWORD,deovr-stream
-  - DOMAIN-KEYWORD,deovr-media
-  - DOMAIN-KEYWORD,deovr-video
-  
-  # 第三方服务依赖（常见）
-  - DOMAIN-SUFFIX,cloudfront.net
-  - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,akamai.net
-  
-  # 备用域名和重定向
-  - DOMAIN,www.deovr.com
-  - DOMAIN,app.deovr.com
-  - DOMAIN,api.deovr.com
-  - DOMAIN,cdn.deovr.com
-  - DOMAIN,static.deovr.com
-  - DOMAIN,assets.deovr.com
-  - DOMAIN,auth.deovr.com
-  - DOMAIN,account.deovr.com
-  - DOMAIN,media.deovr.com
-  - DOMAIN,video.deovr.com
-  - DOMAIN,stream.deovr.com
+DOMAIN-SUFFIX,deovr.com
+DOMAIN,api.deovr.com
+DOMAIN,cdn-vr.deovr.com
+DOMAIN,www.deovr.com
+DOMAIN-KEYWORD,deovr-cdn
+DOMAIN-KEYWORD,deovr-static
+DOMAIN-KEYWORD,deovr-assets
+DOMAIN-KEYWORD,deovr-media
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,akamaized.net
