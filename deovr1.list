@@ -1,0 +1,10 @@
+DOMAIN-SUFFIX,deovr.com
+DOMAIN,api.deovr.com
+DOMAIN,cdn-vr.deovr.com
+DOMAIN,www.deovr.com
+DOMAIN-KEYWORD,deovr-cdn
+DOMAIN-KEYWORD,deovr-static
+DOMAIN-KEYWORD,deovr-assets
+DOMAIN-KEYWORD,deovr-media
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,akamaized.net
