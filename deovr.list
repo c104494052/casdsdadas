@@ -1,0 +1,16 @@
+payload:
+  # 已证实的主域名及其核心子域名
+  - DOMAIN-SUFFIX,deovr.com
+  - DOMAIN,api.deovr.com
+  - DOMAIN,cdn-vr.deovr.com # 根据您之前另一张截图添加
+  - DOMAIN,www.deovr.com
+
+  # 极高概率存在的关键服务子域名（基于常见架构）
+  - DOMAIN-KEYWORD,deovr-cdn
+  - DOMAIN-KEYWORD,deovr-static
+  - DOMAIN-KEYWORD,deovr-assets
+  - DOMAIN-KEYWORD,deovr-media
+
+  # 可能存在的第三方CDN (根据您的截图，目标IP在德国，可能使用海外CDN)
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,akamaized.net
